@@ -2,7 +2,7 @@
 body{
 	padding: 0;
 	margin: 0;
-	background-image: url('../images/hakai2.jpg');
+	background-image: url('../images/bg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -29,6 +29,17 @@ button {
 	top: 0px;
 	text-align: center;
 	width: 100%;
+}
+.saints {
+	position: absolute;
+	text-align: right;
+	margin-top: 250px;
+	width: 100%;
+}
+.youtube {
+	position: absolute;
+	text-align: left;
+	top: 250px;
 }
 
 a {
@@ -61,4 +72,6 @@ button {
 	height: 68px;
 	left: 864px;
 	top: 957px;
-}
+position: absolute;
+	text-align: right;
+	width: 100%;}
