@@ -41,6 +41,11 @@ button {
 	text-align: left;
 	top: 250px;
 }
+.project {
+	position: absolute;
+	text-align: left;
+	top: 0;
+}
 
 a {
 	text-decoration: none;
