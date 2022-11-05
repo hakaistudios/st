@@ -43,8 +43,9 @@ button {
 }
 .project {
 	position: absolute;
-	text-align: left;
-	top: 0;
+	top: 80px;
+	text-align: center;
+	width: 100%;
 }
 
 a {
