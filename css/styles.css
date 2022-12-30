@@ -47,6 +47,12 @@ button {
 	text-align: center;
 	width: 100%;
 }
+.twitter {
+	position: absolute;
+	text-align: left;
+	bottom: 0;
+
+}
 
 a {
 	text-decoration: none;
