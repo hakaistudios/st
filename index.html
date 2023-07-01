@@ -1,20 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="refresh" content="4; URL=https://hakaistudios.com/" />
     <title>HAKAI</title>
-</head>
-<body>
     <style>
-        body{background-color: black;}
-        h1{position: relative;
-            text-align: center;
-        color: white;}
-    </style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
+        body {
+            background-color: black;
+            margin: 0; /* Remove default body margin */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Set the body to full viewport height */
+        }
 
-    <h1>Redirecting to the new Hakai Studios website!</h1>
-    
+        h1 {
+            text-align: center;
+            color: white;
+        }
+
+        .gif img {
+            display: block; /* Make the image a block element */
+            margin: 0 auto; /* Center the image horizontally */
+            max-width: 100%; /* Ensure the image fits within the viewport width */
+            max-height: calc(100vh - 100px); /* Adjust the value as needed to leave space for the text */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="text">
+        <h1>REDIRECTING TO THE NEW HAKAI STUDIOS WEBSITE!</h1>
+
+        <div class="gif">
+            <img src="gifhakai-min.gif" alt="">
+        </div>
+    </div>
 </body>
+
 </html>
